@@ -19,8 +19,18 @@ Column | Variable Name                     | Definition
 	  11 avg_GravityAccTime_Std_X			Average of gravity accelerations std in the x-axis
 	  12 avg_GravityAccTime_Std_y			Average of gravity accelerations std in the y-axis
 	  13 avg_GravityAccTime_Std_Z			Average of gravity accelerations std in the z-axis
-	  14 avg_BodyJerkAccTime_Mean_X			Average of body jerk accelerations std in the x-axis
-	  15 avg_BodyJerkAccTime_Mean_X			Average of body jerk  accelerations std in the y-axis
-	  16 avg_BodyJerkAccTime_Mean_X			Average of body jerk  accelerations std in the z-axis
-
-	  
+	  14 avg_BodyJerkAccTime_Mean_X			Average of body jerk accelerations mean in the x-axis
+	  15 avg_BodyJerkAccTime_Mean_Y			Average of body jerk  accelerations mean in the y-axis
+	  16 avg_BodyJerkAccTime_Mean_Z			Average of body jerk  accelerations mean in the z-axis
+	  17 avg_BodyJerkAccTime_Std_X			Average of body jerk accelerations std in the x-axis
+	  18 avg_BodyJerkAccTime_Std_Y			Average of body jerk  accelerations std in the y-axis
+	  19 avg_BodyJerkAccTime_Std_Z			Average of body jerk  accelerations std in the z-axis
+	  20 avg_BodyGyroTime_Mean_X			Average of gyroscope  mean in the x-axis
+	  21 avg_BodyGyroTime_Mean_Y			Average of gyroscope   mean in the y-axis
+	  22 avg_BodyGyroTime_Mean_Z			Average of gyroscope  mean in the z-axis
+	  23 avg_BodyGyroTime_Std_X			Average of gyroscope  std in the x-axis
+	  24 avg_BodyGyroTime_Std_Y			Average of gyroscope   std in the y-axis
+	  25 avg_BodyGyroTime_Std_Z			Average of gyroscope  std in the z-axis
+	  26 avg_BodyGyroJerkTime_Mean_X			Average of gyroscope jerk  mean in the x-axis
+	  27 avg_BodyGyroJerkTime_Mean_Y			Average of gyroscope  jerk  mean in the y-axis
+	  28 avg_BodyGyroJerkTime_Mean_Z			Average of gyroscope jerk  mean in the z-axis
