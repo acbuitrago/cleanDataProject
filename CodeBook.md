@@ -34,3 +34,9 @@ Column | Variable Name                     | Definition
 	  26 avg_BodyGyroJerkTime_Mean_X			Average of gyroscope jerk  mean in the x-axis
 	  27 avg_BodyGyroJerkTime_Mean_Y			Average of gyroscope  jerk  mean in the y-axis
 	  28 avg_BodyGyroJerkTime_Mean_Z			Average of gyroscope jerk  mean in the z-axis
+	  29 avg_BodyGyroJerkTime_Std_X			Average of gyroscope jerk  std in the x-axis
+	  30 avg_BodyGyroJerkTime_Std_Y			Average of gyroscope  jerk  std in the y-axis
+	  31 avg_BodyGyroJerkTime_Std_Z			Average of gyroscope jerk  std in the z-axis
+	  32 avg_BodyAccTimeMagnitude_Mean			Average of gyroscope jerk  std in the x-axis
+	  33 avg_BodyAccTimeMagnitude_Std			Average of gyroscope  jerk  std in the y-axis
+
