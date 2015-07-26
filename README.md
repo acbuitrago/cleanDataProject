@@ -2,30 +2,39 @@
 
 ## Prerequisites
 To run the script "run_analysis.R" you need to install the following packages in R:
--plyr
--dplyr
+*plyr
+*dplyr
 
 Also, the script assumes it's executed in an environment where exists a folder named "UCI HAR Dataset", which contains the next files and folders:
 
--train/X_train.txt
--train/y_train.txt
--train/subject_train.txt
--test/X_test.txt
--test/y_test.txt
--test/subject_test.txt
--features.txt
--activity_labels.txt
+*train/X_train.txt
+
+*train/y_train.txt
+
+*train/subject_train.txt
+
+*test/X_test.txt
+
+*test/y_test.txt
+
+*test/subject_test.txt
+
+*features.txt
+
+*activity_labels.txt
 
 Meaning, you only have to unzip the dataset file in the same folder where "run_analysis.R" is and the script will work.
 
 ## Description of the script
 
 To obtain a tidy dataset, I didn’t follow the steps in the proposed order. Instead I followed this order:
-2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
-1.	Merges the training and the test sets to create one data set.
-3.	Uses descriptive activity names to name the activities in the data set
-4.	Appropriately labels the data set with descriptive variable names. 
-5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+<ol>
+<li>	Extracts only the measurements on the mean and standard deviation for each measurement. </li>
+<li>Merges the training and the test sets to create one data set.</li>
+<li>	Uses descriptive activity names to name the activities in the data set</li>
+<li>Appropriately labels the data set with descriptive variable names. </li>
+<li>	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.</li>
+</ol>
 Also I did many things before getting to the first step. 
 The main reason why I didn’t followed the order was because I think that merging the training and tests sets before extracting the measures we are interested in, is a highly inefficient since there are many rows and columns in both data frames. 
 Now I will explain each the specific steps I followed in the script. Hopefully this will explain all my work.
